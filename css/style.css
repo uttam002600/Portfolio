@@ -363,6 +363,9 @@ h3.my-profession {
   color: var(--text-black-900);
   border-bottom: 1px solid var(--bg-black-50);
 }
+.about .personal-info .info-item a {
+  color: var(--skin-color);
+}
 .about .personal-info .info-item p span {
   font-weight: 400;
   color: var(--text-black-700);
@@ -488,6 +491,13 @@ h3.my-profession {
   font-size: 16px;
   text-align: justify;
   color: var(--text-black-700);
+}
+.about .timeline ul li {
+  color: var(--text-black-700);
+  font-size: 16px;
+}
+.about .timeline ul li a {
+  color: var(--skin-color);
 }
 /* service */
 .service .container {
@@ -696,7 +706,8 @@ h3.my-profession {
   .about .education,
   .about .experience,
   .about .skills,
-  .about .personal-info {
+  .about .personal-info,
+  .about .personal-info .info-item {
     flex: 0 0 100%;
     max-width: 100%;
   }
