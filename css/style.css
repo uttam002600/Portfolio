@@ -707,7 +707,8 @@ h3.my-profession {
   .about .experience,
   .about .skills,
   .about .personal-info,
-  .about .personal-info .info-item {
+  .about .personal-info .info-item,
+  .contact .contact-info-item {
     flex: 0 0 100%;
     max-width: 100%;
   }
